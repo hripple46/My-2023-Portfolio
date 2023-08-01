@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="w-full h-full bg-blue-900">
+        <div className="text-white fixed h-12 pt-2 pl-2 pr-2 top-0 left-0 w-full flex justify-between">
+          <h1 className="text-2xl">Projects</h1>
+          <h1 className="text-2xl">Skills</h1>
+          <h1 className="text-2xl">Contact</h1>
+        </div>
+        <div className="w-full h-full pt-14 flex flex-col items-center md:justify-center">
+          <h1 className="text-white text-3xl">Henry Ripple</h1>
+          <h2 className="text-white">Full Stack Engineer</h2>
+          <div className="relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
+            <img
+              src="../src/assets/profile_pic.png"
+              alt="Description"
+              className="absolute -top-12 left-0 w-full  h-auto object-cover"
+            />
+          </div>
+          <p className="text-white pl-2 pr-2 md:w-1/3">
+            I'm Henry, a Full-Stack Web Developer skilled in JavaScript, React,
+            CSS, HTML, Node.js, and Express. Passionate about crafting
+            pixel-perfect solutions, I'm ready to turn your ideas into digital
+            reality.
+          </p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
