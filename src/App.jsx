@@ -32,7 +32,8 @@ function App() {
           </p>
         </div>
         <div className="w-full h-full flex flex-col justify-center">
-          <div className=" flex justify-center">
+          <h1 className="pb-8 text-white text-center text-3xl">Skills</h1>
+          <div className="flex justify-center md:justify-evenly">
             <PopupSkills
               title="CSS"
               image={
@@ -133,7 +134,7 @@ function App() {
               }
             />
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center md:justify-evenly">
             <PopupSkills
               title="React"
               image={
@@ -269,7 +270,7 @@ function App() {
               }
             />
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center md:justify-evenly">
             <PopupSkills
               title="Git"
               image={
