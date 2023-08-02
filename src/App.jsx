@@ -8,8 +8,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="w-full h-full bg-blue-900">
-        <div className="z-50 bg-blue-900 text-white fixed h-12 pt-2 pl-2 pr-2 top-0 left-0 w-full flex justify-between">
+      <div className="w-full h-full bg-indigo-950">
+        <div className="z-50 bg-indigo-950 text-white fixed h-12 pt-2 pl-2 pr-2 top-0 left-0 w-full flex justify-between">
           <h1 className="text-2xl">Projects</h1>
           <h1 className="text-2xl">Skills</h1>
           <h1 className="text-2xl">Contact</h1>

@@ -9,7 +9,7 @@ const PopupSkills = (props) => {
     >
       <p className="mb-2 text-white absolute bottom-0 z-0">{props.title}</p>
       <div
-        className={`z-10 ${
+        className={`z-10  ${
           hover
             ? "-translate-y-8 transition-transform duration-500 ease-in-out"
             : ""
@@ -21,5 +21,3 @@ const PopupSkills = (props) => {
   );
 };
 export default PopupSkills;
-
-//To-do: add a hover effect to the skills where svg translates up and the title appears
