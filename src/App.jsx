@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import PopupSkills from "./PopupSkills";
+import Projects from "./Projects";
 import "./App.css";
 
 function App() {
@@ -344,6 +345,7 @@ function App() {
             />
           </div>
         </div>
+        <Projects />
       </div>
     </>
   );
