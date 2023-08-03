@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import PopupSkills from "./PopupSkills";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -51,7 +50,7 @@ function App() {
           <h2 className="text-white">Full Stack Engineer</h2>
           <div className="relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
             <img
-              src="../src/assets/profile_pic.png"
+              src="/assets/profile_pic.png"
               alt="Description"
               className="absolute -top-12 left-0 w-full  h-auto object-cover"
             />

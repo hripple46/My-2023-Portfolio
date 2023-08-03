@@ -72,7 +72,7 @@ export default function Projects({ projectsRef }) {
 
         <img
           className="w-full h-auto"
-          src="./src/assets/Screenshot 2023-07-28 at 1.10.35 PM.png"
+          src="/assets/Screenshot 2023-07-28 at 1.10.35 PM.png"
         ></img>
         <p className="text-white">
           This project, featuring a single-page web application developed with
@@ -127,7 +127,7 @@ export default function Projects({ projectsRef }) {
 
         <img
           className="w-full h-auto"
-          src="./src/assets/Image 4-29-23 at 12.55 PM.jpeg"
+          src="/assets/Image 4-29-23 at 12.55 PM.jpeg"
         ></img>
         <p>
           In this endeavor, an IMDb-like web application was developed using
@@ -175,7 +175,7 @@ export default function Projects({ projectsRef }) {
 
         <img
           className="w-full h-auto"
-          src="./src/assets/Image 4-29-23 at 12.53 PM.jpeg"
+          src="/assets/Image 4-29-23 at 12.53 PM.jpeg"
         ></img>
         <p>
           In this project, the development of a dynamic web application allowed
