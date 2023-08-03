@@ -25,7 +25,7 @@ function App() {
             onClick={() => {
               scrollToRef(projectsRef);
             }}
-            className="text-2xl"
+            className="text-2xl hover:cursor-pointer"
           >
             Projects
           </h1>
@@ -33,7 +33,7 @@ function App() {
             onClick={() => {
               scrollToRef(skillsRef);
             }}
-            className="text-2xl"
+            className="text-2xl hover:cursor-pointer"
           >
             Skills
           </h1>
@@ -41,7 +41,7 @@ function App() {
             onClick={() => {
               scrollToRef(contactRef);
             }}
-            className="text-2xl"
+            className="text-2xl hover:cursor-pointer"
           >
             Contact
           </h1>
