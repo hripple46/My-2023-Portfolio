@@ -8,3 +8,7 @@ body,
   height: 100%;
   background-color: #1e1b4b;
 }
+
+#root {
+  display: relative;
+}

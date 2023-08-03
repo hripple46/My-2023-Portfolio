@@ -1,6 +1,6 @@
 export default function Projects({ projectsRef }) {
   return (
-    <div className=" flex flex-col w-full justify-center items-center text-white">
+    <div className="pb-24 flex flex-col w-full justify-center items-center text-white">
       <div className="flex flex-col justify-center items-center w-full md:w-1/3">
         <h1 ref={projectsRef} className="text-white text-4xl pb-4">
           Projects

@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import PopupSkills from "./PopupSkills";
 import Projects from "./Projects";
+import Contact from "./Contact";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   const skillsRef = useRef(null);
   const projectsRef = useRef(null);
+  const contactRef = useRef(null);
   return (
     <>
       <div className="w-full h-full bg-indigo-950">
@@ -35,7 +37,14 @@ function App() {
           >
             Skills
           </h1>
-          <h1 className="text-2xl">Contact</h1>
+          <h1
+            onClick={() => {
+              scrollToRef(contactRef);
+            }}
+            className="text-2xl"
+          >
+            Contact
+          </h1>
         </div>
         <div className="w-full h-full pt-6 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl">Henry Ripple</h1>
@@ -373,6 +382,15 @@ function App() {
           </div>
         </div>
         <Projects projectsRef={projectsRef} />
+        <Contact contactRef={contactRef} />
+        <p
+          className="fixed bottom-0 right-0 mr-4 mb-4 text-white text-sm md:text-2xl cursor-pointer"
+          onClick={() => {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }}
+        >
+          Back To Top
+        </p>
       </div>
     </>
   );
