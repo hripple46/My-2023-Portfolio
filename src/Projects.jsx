@@ -1,8 +1,10 @@
-export default function Projects() {
+export default function Projects({ projectsRef }) {
   return (
     <div className=" flex flex-col w-full justify-center items-center text-white">
       <div className="flex flex-col justify-center items-center w-full md:w-1/3">
-        <h1 className="text-white text-4xl pb-4">Projects</h1>
+        <h1 ref={projectsRef} className="text-white text-4xl pb-4">
+          Projects
+        </h1>
         <div className="w-full flex justify-between items-center">
           <h2 className="text-white text-2xl">Movie-Groups</h2>
           <div className="flex justify-center">

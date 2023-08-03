@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import PopupSkills from "./PopupSkills";
@@ -6,12 +6,35 @@ import Projects from "./Projects";
 import "./App.css";
 
 function App() {
+  const scrollToRef = (ref) =>
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
   return (
     <>
       <div className="w-full h-full bg-indigo-950">
         <div className="z-50 bg-indigo-950 text-white fixed h-12 pt-2 pl-2 pr-2 top-0 left-0 w-full flex justify-between">
-          <h1 className="text-2xl">Projects</h1>
-          <h1 className="text-2xl">Skills</h1>
+          <h1
+            onClick={() => {
+              scrollToRef(projectsRef);
+            }}
+            className="text-2xl"
+          >
+            Projects
+          </h1>
+          <h1
+            onClick={() => {
+              scrollToRef(skillsRef);
+            }}
+            className="text-2xl"
+          >
+            Skills
+          </h1>
           <h1 className="text-2xl">Contact</h1>
         </div>
         <div className="w-full h-full pt-6 flex flex-col items-center justify-center">
@@ -31,7 +54,10 @@ function App() {
             reality.
           </p>
         </div>
-        <div className="w-full h-full flex flex-col justify-center">
+        <div
+          ref={skillsRef}
+          className="w-full h-full flex flex-col justify-center"
+        >
           <h1 className="pb-8 text-white text-center text-3xl">Skills</h1>
           <div className="flex justify-center md:justify-evenly">
             <PopupSkills
@@ -346,7 +372,7 @@ function App() {
             />
           </div>
         </div>
-        <Projects />
+        <Projects projectsRef={projectsRef} />
       </div>
     </>
   );
