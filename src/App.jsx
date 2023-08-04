@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
-import ReactGA from "react-ga";
-ReactGA.initialize("UA-256236245-1");
+
 import PopupSkills from "./PopupSkills";
 import Projects from "./Projects";
 import Contact from "./Contact";
