@@ -6,7 +6,8 @@ html,
 body,
 #root {
   height: 100%;
-  background-color: #1e1b4b;
+  background-color: #1c1917;
+  font-family: Poppins;
 }
 
 #root {

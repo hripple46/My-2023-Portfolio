@@ -18,13 +18,13 @@ function App() {
   const contactRef = useRef(null);
   return (
     <>
-      <div className="w-full h-full bg-indigo-950">
-        <div className="z-50 bg-indigo-950 text-white fixed h-12 pt-2 pl-2 pr-2 top-0 left-0 w-full flex justify-between">
+      <div className="w-full h-full bg-stone-900">
+        <div className="z-50 bg-stone-900 text-white fixed h-14 md:h-20 md:pt-2 pl-2 pr-2 top-0 left-0 w-full flex items-center md:pt-2 md:pb-2 justify-between">
           <h1
             onClick={() => {
               scrollToRef(projectsRef);
             }}
-            className="text-2xl hover:cursor-pointer"
+            className="border-2 border-white md:p-2 p-1  hover:bg-gray-400 md:mt-4  md:pb-2 rounded-lg text-md md:text-xl hover:cursor-pointer"
           >
             Projects
           </h1>
@@ -32,7 +32,7 @@ function App() {
             onClick={() => {
               scrollToRef(skillsRef);
             }}
-            className="text-2xl hover:cursor-pointer"
+            className="rounded-lg md:mt-4 border-2 border-white hover:bg-gray-400 p-1 md:p-2 text-md md:text-xl hover:cursor-pointer"
           >
             Skills
           </h1>
@@ -40,22 +40,22 @@ function App() {
             onClick={() => {
               scrollToRef(contactRef);
             }}
-            className="text-2xl hover:cursor-pointer"
+            className="rounded-lg md:mt-4 border-2 border-white hover:bg-gray-400 p-1 md:p-2 text-md md:text-xl hover:cursor-pointer"
           >
             Contact
           </h1>
         </div>
         <div className="w-full h-full pt-6 flex flex-col items-center justify-center">
-          <h1 className="text-white text-3xl">Henry Ripple</h1>
-          <h2 className="text-white">Full Stack Engineer</h2>
-          <div className="relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
+          <h1 className="text-white text-4xl">Henry Ripple</h1>
+          <h2 className="text-white text-xl">Full Stack Engineer</h2>
+          <div className="md:mt-4 relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
             <img
               src="/assets/profile_pic.png"
               alt="Description"
               className="absolute -top-12 left-0 w-full  h-auto object-cover"
             />
           </div>
-          <p className="text-white pl-2 pr-2 md:w-1/3">
+          <p className="text-white pl-2 pr-2 md:w-1/3 md:mt-4">
             I'm Henry, a Full-Stack Web Developer skilled in JavaScript, React,
             CSS, HTML, Node.js, and Express. Passionate about crafting
             pixel-perfect solutions, I'm ready to turn your ideas into digital
