@@ -6,7 +6,7 @@ export default function Projects({ projectsRef }) {
           Projects
         </h1>
         <div className="w-full flex justify-between items-center">
-          <h2 className="text-white text-2xl">Movie-Groups</h2>
+          <h2 className="text-white text-2xl italic">Movie-Groups</h2>
           <div className="flex justify-center">
             <a href="https://movie-groups.com" target="_blank">
               <svg
@@ -85,7 +85,7 @@ export default function Projects({ projectsRef }) {
       </div>
       <div className="pt-16 flex flex-col justify-center items-center w-full md:w-1/3">
         <div className="w-full flex justify-between items-center">
-          <h2 className="text-2xl">Film Hub</h2>
+          <h2 className="text-2xl italic">Film Hub</h2>
           <div className="flex justify-center">
             <a
               href="https://hripple46.github.io/Ripple-Film-Hub/#/"
@@ -139,7 +139,7 @@ export default function Projects({ projectsRef }) {
       </div>
       <div className="pt-8 flex flex-col justify-center items-center w-full md:w-1/3">
         <div className="w-full flex justify-between items-center">
-          <h2 className="text-2xl">Author's Portfolio</h2>
+          <h2 className="text-2xl italic">Author's Portfolio</h2>
           <div className="flex justify-center">
             <a href="https://stephentimothyripple.com" target="_blank">
               <svg
