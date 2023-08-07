@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Contact({ contactRef }) {
   return (
-    <div ref={contactRef} className="text-white h-full">
+    <div
+      ref={contactRef}
+      className="text-white h-full w-full overflow-x-hidden"
+    >
       <div className="flex flex-row justify-center content-center">
         <div className="mr-2 mt-4 w-1/3 border-t-8"></div>
         <h1 className="text-4xl text-white">Contact</h1>
@@ -13,7 +16,7 @@ export default function Contact({ contactRef }) {
           <h3 className="md:text-2xl text-xl">
             Shoot Me An Email/Give Me A Call:
           </h3>
-          <h1 className="md:text-6xl text-4xl text-center">
+          <h1 className="md:text-2xl text-xl text-center">
             hhripple@gmail.com
             <br />
             952-261-6457
