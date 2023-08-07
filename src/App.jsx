@@ -18,8 +18,8 @@ function App() {
   const contactRef = useRef(null);
   return (
     <>
-      <div className="w-full h-full bg-stone-900">
-        <div className="z-50 bg-stone-900 text-white fixed h-14 md:h-20  top-0 left-0 w-full flex items-center md:pt-2 md:pb-2 justify-between">
+      <div className="w-full h-full bg-neutral-950">
+        <div className="z-50 bg-neutral-950 text-white fixed h-14 md:h-20  top-0 left-0 w-full flex items-center md:pt-2 md:pb-2 justify-between">
           <div className="flex justify-evenly w-full items-center">
             <h1
               onClick={() => {
@@ -53,7 +53,7 @@ function App() {
           </div>
         </div>
         <div className="w-full h-full pt-6 flex flex-col items-center justify-center">
-          <h1 className="text-white text-2xl">Hey, I'm</h1>
+          <h1 className="text-orange-300 text-2xl">Hey, I'm</h1>
           <h2 className="text-white text-4xl">Henry Ripple</h2>
           <div className="md:mt-4 relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
             <img
@@ -67,8 +67,16 @@ function App() {
             specializes in Node.js and React.js to create beatutiful and
             functional web applications.
           </p>
+          <button
+            onClick={() => {
+              scrollToRef(skillsRef);
+            }}
+            className="mt-2 text-white text-xl pt-4 border-2 border-orange-300 rounded-md p-1 pt-1"
+          >
+            About Me
+          </button>
         </div>
-        <div ref={skillsRef} className="w-full h-full">
+        <div ref={skillsRef} className="w-full ">
           <div className="text-white w-full flex flex-col">
             <div className="w-full flex flex-col items-center">
               <div className="flex w-2/3 justify-start border-b-2 pb-2">

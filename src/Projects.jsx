@@ -1,7 +1,7 @@
 export default function Projects({ projectsRef }) {
   return (
     <div className="pb-24 flex flex-col w-full justify-center items-center text-white">
-      <div className="flex flex-col justify-center items-center w-full md:w-1/3">
+      <div className="flex flex-col justify-center items-center w-full md:w-1/2">
         <h1 ref={projectsRef} className="text-white text-4xl pb-4">
           Projects
         </h1>
@@ -83,7 +83,7 @@ export default function Projects({ projectsRef }) {
           user-friendly interfaces and strong user management practices.
         </p>
       </div>
-      <div className="pt-16 flex flex-col justify-center items-center w-full md:w-1/3">
+      <div className="pt-16 flex flex-col justify-center items-center w-full md:w-1/2">
         <div className="w-full flex justify-between items-center">
           <h2 className="text-2xl italic">Film Hub</h2>
           <div className="flex justify-center">
@@ -137,7 +137,7 @@ export default function Projects({ projectsRef }) {
           creating intuitive and efficient user interfaces.
         </p>
       </div>
-      <div className="pt-8 flex flex-col justify-center items-center w-full md:w-1/3">
+      <div className="pt-8 flex flex-col justify-center items-center w-full md:w-1/2">
         <div className="w-full flex justify-between items-center">
           <h2 className="text-2xl italic">Author's Portfolio</h2>
           <div className="flex justify-center">
