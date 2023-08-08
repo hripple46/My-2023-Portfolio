@@ -113,7 +113,7 @@ function App() {
                   Skills
                 </h1>
               </div>
-              <div className="flex flex-col w-2/3 items-start pb-16 ">
+              <div className="flex flex-col w-full md:w-2/3 items-center md:items-start pb-16 ">
                 <div className="flex justify-center md:justify-evenly">
                   <PopupSkills
                     title="CSS"
@@ -432,6 +432,11 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-full flex justify-center">
+          <h1 ref={projectsRef} className="text-white text-4xl pb-4 w-2/3">
+            Projects
+          </h1>
         </div>
         <Projects projectsRef={projectsRef} />
 
