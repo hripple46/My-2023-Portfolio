@@ -25,7 +25,7 @@ function App() {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="text-lg hover:cursor-pointer"
+              className="text-lg hover:cursor-pointer hover:text-orange-300"
             >
               Henry.
             </h1>
@@ -71,7 +71,7 @@ function App() {
             onClick={() => {
               scrollToRef(skillsRef);
             }}
-            className="mt-2 text-white text-xl pt-4 border-2 border-orange-300 rounded-md p-1 pt-1"
+            className="mt-2 text-white text-xl hover:text-orange-300 border-2 border-orange-300 rounded-md p-1 pt-1"
           >
             About Me
           </button>
@@ -89,8 +89,21 @@ function App() {
                   HTML, CSS, and design frameworks like Tailwind and Bootstrap.
                   I am deeply committed to designing pixel-perfect web
                   solutions. Let me help transform your concepts into impressive
-                  digital realities. Reach out to me at hhripple@gmail.com or
-                  call 952-261-6457.
+                  digital realities. Reach out to me at{" "}
+                  <a
+                    className="underline text-orange-300 hover:no-underline"
+                    href="mailto: hhripple@gmail.com"
+                  >
+                    hhripple@gmail.com
+                  </a>{" "}
+                  or call{" "}
+                  <a
+                    className="underline text-orange-300 hover:no-underline"
+                    href="tel:9522616457"
+                  >
+                    952-261-6457
+                  </a>
+                  .
                 </p>
               </div>
             </div>

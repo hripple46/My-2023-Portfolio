@@ -76,11 +76,12 @@ export default function Projects({ projectsRef }) {
         ></img>
         <p className="text-white">
           This project, featuring a single-page web application developed with
-          ExpressJS and ReactJS, highlighted effective use of MongoDB for
-          seamless data handling. The integration of Tailwind CSS and Vite
-          further demonstrated an adeptness with modern design principles and
-          efficient development workflows, all while maintaining a focus on
-          user-friendly interfaces and strong user management practices.
+          ExpressJS and ReactJS, highlighted effective integration between the
+          Client-Side, Backend (RESTful API), and Databse (MongoDB) for seamless
+          data handling. The integration of Tailwind CSS and Vite further
+          demonstrated an adeptness with modern design principles and efficient
+          development workflows, all while maintaining a focus on user-friendly
+          interfaces and strong user management practices.
         </p>
       </div>
       <div className="pt-16 flex flex-col justify-center items-center w-full md:w-1/2">
