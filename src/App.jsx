@@ -34,7 +34,7 @@ function App() {
                 onClick={() => {
                   scrollToRef(skillsRef);
                 }}
-                className="rounded-lg md:mt-4 border-2 border-white hover:bg-gray-400 p-1 md:p-2 text-md  hover:cursor-pointer"
+                className="rounded-lg mr-2 md:mt-4 border-2 border-white hover:bg-gray-400 p-1 md:p-2 text-md  hover:cursor-pointer"
               >
                 About
               </h1>
@@ -62,7 +62,7 @@ function App() {
               className="absolute -top-12 left-0 w-full  h-auto object-cover"
             />
           </div>
-          <p className="text-white pl-2 pr-2 md:w-3/4 md:mt-4">
+          <p className="text-white pl-2 pr-2 md:w-2/3 md:mt-4">
             Hey, I'm Henry. A passionate, Full-Stack Web Developer, that
             specializes in Node.js and React.js to create beatutiful and
             functional web applications.
@@ -443,14 +443,15 @@ function App() {
         {
           //<Contact contactRef={contactRef} />
         }
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
           height="48"
           viewBox="0 -960 960 960"
           fill="white"
-          className="fixed bottom-0 right-0 mr-4 mb-4 rotate-180 
-           cursor-pointer"
+          className="fixed bottom-0 right-0 mr-4 mb-4 rotate-180
+             cursor-pointer hover:animate-pulse"
           onClick={() => {
             window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
           }}
