@@ -85,11 +85,11 @@ function App() {
               <div className="w-2/3 flex justify-start pt-8">
                 <p>
                   My name is Henry, a proficient Full-Stack Web Developer with
-                  expertise in Full Stack JavaScript, Reacts, Nodes, Expressjs,
-                  HTML, CSS, and design frameworks like Tailwind and Bootstrap.
-                  I am deeply committed to designing pixel-perfect web
-                  solutions. Let me help transform your concepts into impressive
-                  digital realities. Reach out to me at{" "}
+                  expertise in Full Stack JavaScript, React.js, Node.js,
+                  Express.js, HTML, CSS, and design frameworks like Tailwind and
+                  Bootstrap. I am deeply committed to designing pixel-perfect
+                  web solutions. Let me help transform your concepts into
+                  impressive digital realities. Reach out to me at{" "}
                   <a
                     className="underline text-orange-300 hover:no-underline"
                     href="mailto: hhripple@gmail.com"
