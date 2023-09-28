@@ -85,7 +85,7 @@ function App() {
               <div className="w-2/3 flex justify-start pt-8">
                 <p>
                   My name is Henry, a proficient Full-Stack Web Developer with
-                  expertise in Full Stack JavaScript, React.js, Node.js,
+                  expertise in Vanilla JavaScript, React.js, Node.js,
                   Express.js, HTML, CSS, and design frameworks like Tailwind and
                   Bootstrap. I am deeply committed to designing pixel-perfect
                   web solutions. Let me help transform your concepts into
