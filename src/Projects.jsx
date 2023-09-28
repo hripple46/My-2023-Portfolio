@@ -45,9 +45,9 @@ export default function Projects({ projectsRef }) {
             {" "}
             <img className="w-full h-auto" src="/assets/triviagame.png"></img>
           </a>
-          <ul>
+          <ul className="mt-2">
             <li>
-              <strong>Tech Stack:</strong>
+              <strong className="underline">Tech Stack:</strong>
               <ul>
                 <li> ExpressJS (Backend) </li>
                 <li>ReactJS (Frontend)</li>
@@ -55,16 +55,17 @@ export default function Projects({ projectsRef }) {
               </ul>
             </li>
             <li>
-              <strong>Description:</strong> This app serves as a technical
-              showcase of my full-stack development skills. It boasts over 250
-              users with an average engagement time of 48 seconds, highlighting
-              my prowess in UX design and optimization. Advanced array
-              manipulation techniques ensure the seamless daily delivery of 5
-              new questions, thoughtfully sorted from easiest to hardest. The
-              backend, powered by Express.js, handles authentication, data, and
-              scoring, while users can effortlessly share scores through social
-              integration. This project exemplifies my proficiency in creating
-              engaging and scalable full-stack applications.
+              <strong className="underline">Description:</strong> This app
+              serves as a technical showcase of my full-stack development
+              skills. It boasts over 250 users with an average engagement time
+              of 48 seconds, highlighting my prowess in UX design and
+              optimization. Advanced array manipulation techniques ensure the
+              seamless daily delivery of 5 new questions, thoughtfully sorted
+              from easiest to hardest. The backend, powered by Express.js,
+              handles authentication, data, and scoring, while users can
+              effortlessly share scores through social integration. This project
+              exemplifies my proficiency in creating engaging and scalable
+              full-stack applications.
             </li>
           </ul>
         </div>
@@ -140,9 +141,9 @@ export default function Projects({ projectsRef }) {
               src="/assets/Screenshot 2023-07-28 at 1.10.35 PM.png"
             ></img>
           </a>
-          <ul className="text-white">
+          <ul className="text-white mt-2">
             <li>
-              <strong>Tech Stack:</strong>
+              <strong className="underline">Tech Stack:</strong>
               <ul>
                 <li>ExpressJS (Backend)</li>
                 <li>ReactJS (Frontend)</li>
@@ -151,11 +152,11 @@ export default function Projects({ projectsRef }) {
               </ul>
             </li>
             <li>
-              <strong>Description:</strong> This project showcases a secure and
-              seamlessly integrated single-page web application that combines
-              ExpressJS, ReactJS, and MongoDB, while emphasizing user-friendly
-              design and rigorous JWT-based security practices for efficient and
-              protected data handling.
+              <strong className="underline">Description:</strong> This project
+              showcases a secure and seamlessly integrated single-page web
+              application that combines ExpressJS, ReactJS, and MongoDB, while
+              emphasizing user-friendly design and rigorous JWT-based security
+              practices for efficient and protected data handling.
             </li>
 
             <li>
@@ -225,20 +226,21 @@ export default function Projects({ projectsRef }) {
               src="/assets/Image 4-29-23 at 12.55 PM.jpeg"
             ></img>
           </a>
-          <ul>
+          <ul className="mt-2">
             <li>
-              <strong>Tech Stack:</strong>
+              <strong className="underline">Tech Stack:</strong>
               <ul>
                 <li>ReactJS</li>
                 <li>Firebase</li>
               </ul>
             </li>
             <li>
-              <strong>Description:</strong> Developed an IMDb-like web
-              application using React and Firebase, showcasing proficiency in
-              frontend development. Integrated features like a title-based
-              search function and a star rating system, demonstrating the
-              ability to create intuitive and efficient user interfaces.
+              <strong className="underline">Description:</strong> Developed an
+              IMDb-like web application using React and Firebase, showcasing
+              proficiency in frontend development. Integrated features like a
+              title-based search function and a star rating system,
+              demonstrating the ability to create intuitive and efficient user
+              interfaces.
             </li>
           </ul>
         </div>
@@ -288,9 +290,9 @@ export default function Projects({ projectsRef }) {
               src="/assets/Image 4-29-23 at 12.53 PM.jpeg"
             ></img>
           </a>
-          <ul>
+          <ul className="mt-2">
             <li>
-              <strong>Tech Stack:</strong>
+              <strong className="underline">Tech Stack:</strong>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -299,13 +301,13 @@ export default function Projects({ projectsRef }) {
               </ul>
             </li>
             <li>
-              <strong>Description:</strong> In this project, the development of
-              a dynamic web application allowed for an impressive showcase of an
-              author's work while promoting user engagement. The use of Google
-              Firestore underscored my capabilities in robust data management,
-              and the design emphasis on the author's styling and community
-              interaction highlighted a strong grasp of user-centric design and
-              styling principles.
+              <strong className="underline">Description:</strong> In this
+              project, the development of a dynamic web application allowed for
+              an impressive showcase of an author's work while promoting user
+              engagement. The use of Google Firestore underscored my
+              capabilities in robust data management, and the design emphasis on
+              the author's styling and community interaction highlighted a
+              strong grasp of user-centric design and styling principles.
             </li>
           </ul>
         </div>
