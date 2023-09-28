@@ -51,6 +51,7 @@ export default function Projects({ projectsRef }) {
               <ul>
                 <li> ExpressJS (Backend) </li>
                 <li>ReactJS (Frontend)</li>
+                <li>MongoDB (Database)</li>
               </ul>
             </li>
             <li>
@@ -145,7 +146,7 @@ export default function Projects({ projectsRef }) {
               <ul>
                 <li>ExpressJS (Backend)</li>
                 <li>ReactJS (Frontend)</li>
-                <li>MongoDB for database</li>
+                <li>MongoDB (Database)</li>
                 <li>JWT (JSON Web Tokens) for secure user authentication</li>
               </ul>
             </li>
