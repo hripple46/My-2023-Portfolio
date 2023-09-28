@@ -53,7 +53,7 @@ function App() {
           </div>
         </div>
         <div className="w-full h-full pt-6 flex flex-col items-center justify-center">
-          <h1 className="text-orange-300 text-2xl">Hey, I'm</h1>
+          <h1 className="text-orange-300 text-2xl">Hi, I'm</h1>
           <h2 className="text-white text-4xl">Henry Ripple</h2>
           <div className="md:mt-4 relative w-full h-1/2 md:h-1/3 lg:h-1/2 md:w-1/3 md:rounded-lg overflow-hidden">
             <img
